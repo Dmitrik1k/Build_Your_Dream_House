@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body a {
+    text-decoration: none;
+}
+
+
+
+.navbar{
+    display: flex;
+height: 80px;
+padding: 0px 136px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.navmenu{
+    display: flex;
+align-items: center;
+gap: 24px;
+}
+.navmenu a{
+    color: #2C2C2C;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 285.714% */
+letter-spacing: 0.14px;
+}
+
+
+.login{
+    display: flex;
+align-items: center;
+gap: 24px;
+}
+
+.login a {
+    color: #2C2C2C;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 285.714% */
+letter-spacing: 0.14px;
+}
+
+
+.search_ico{
+    display: flex;
+padding: 8px;
+align-items: center;
+gap: 8px;
+border-radius: 56px;
+background: #F0F0F0;
+}
+
+
+.signUP{
+    display: flex;
+padding: 4px 24px;
+align-items: center;
+gap: 10px;
+border-radius: 4px;
+background: #FD665E;
+}
+
+.signUP a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 285.714% */
+    letter-spacing: 0.14px; 
+}

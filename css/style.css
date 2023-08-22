@@ -70,7 +70,29 @@ align-items: center;
 gap: 8px;
 border-radius: 56px;
 background: #F0F0F0;
+cursor: pointer;
 }
+
+.search_ico img{
+    cursor: pointer;
+}
+
+.moon_ico img{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.moon_ico{
+    cursor: pointer;
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 56px;
+    background: #F0F0F0;
+}
+
 
 
 .signUP{
@@ -103,6 +125,9 @@ background: #FD665E;
 /* CONTENT */
 /* CONTENT */
 
+/* CONTENT BLOCK */
+/* CONTENT BLOCK */
+/* CONTENT BLOCK */
 .content{
     font-family: Inter;
 }
@@ -187,6 +212,87 @@ background: #cd534c;
 transform: scale(1.05);
     
 }
+/* CONTENT BLOCK */
+/* CONTENT BLOCK */
+/* CONTENT BLOCK */
+
+
+/* GALLERY */
+/* GALLERY */
+/* GALLERY */
+
+.gallery{
+    display: flex;
+padding: 80px 136px;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+align-self: stretch;
+}
+
+
+.gallery .slide_button { 
+    display: flex;
+justify-content: space-between;
+align-items: flex-end;
+align-self: stretch;
+}
+
+
+.slide_button h1{
+    color: #000;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: 124%; /* 59.52px */
+letter-spacing: -0.96px;
+width: 535px;
+margin: 0;
+}
+
+.btn_slide{
+    display: flex;
+padding: 14px;
+justify-content: center;
+align-items: center;
+border-radius: 4px;
+background: rgba(0, 0, 0, 0.03);
+cursor: pointer;
+}
+
+
+
+.btn_right{ 
+    rotate: 180deg;
+}
+
+.button_slider{
+    display: flex;
+align-items: flex-start;
+gap: 8px;
+}
+
+
+
+.slider_gallery{
+    display: flex;
+align-items: flex-start;
+gap: 40px;
+overflow: hidden;
+width: 100%;
+}
+
+.slider_gallery img{
+    cursor: pointer;
+}
+
+
+
+/* GALLERY */
+/* GALLERY */
+/* GALLERY */
+
 
 
 

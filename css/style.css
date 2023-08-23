@@ -10,6 +10,9 @@ body a {
 }
 
 
+.navmenu a:hover{
+    color:#FD665E;
+}
 
 .navbar{
     display: flex;
@@ -198,6 +201,7 @@ padding: 8px 32px;
 gap: 10px;
     border-radius: 4px;
 background: #FD665E;
+transition: 0.3s;
 }
 
 .button_consult{
@@ -289,9 +293,137 @@ width: 100%;
 
 
 
+
+
 /* GALLERY */
 /* GALLERY */
 /* GALLERY */
+
+
+
+
+
+/* NEEEDS */
+/* NEEEDS */
+/* NEEEDS */
+
+.needs_block {
+    display: flex;
+padding: 80px 136px;
+flex-direction: column;
+align-items: center;
+gap: 64px;
+align-self: stretch;
+}
+
+
+
+.wrapper {
+    display: flex;
+justify-content: space-between;
+align-items: flex-start;
+align-self: stretch;
+}
+
+.needs_content{
+    display: flex;
+    padding: 0px 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-con: center;
+    gap: 40px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+
+.needs_content h1{
+    color: #000;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: 124%; /* 59.52px */
+letter-spacing: -0.96px;
+margin: 0;
+}
+
+.content_wrapper {
+    display: flex;
+align-items: flex-start;
+gap: 38px;
+}
+
+.content_text {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+width: 305px;
+}
+
+.content_text h2{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; /* 25.6px */
+letter-spacing: 0.16px;
+margin: 0;
+}
+
+
+.content_text p{
+    color: #272727;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+letter-spacing: 0.16px;
+margin: 0;
+}
+
+
+.needs_button {
+    display: flex;
+align-items: center;
+gap: 10px;
+border-radius: 4px;
+background: #FD665E;
+transition: 0.3s;
+}
+
+
+.needs_button h2{
+padding: 8px 32px;
+margin: 0;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 285.714% */
+letter-spacing: 0.14px;
+
+}
+
+.needs_button:hover{
+    transition: 0.3s;
+    background: #cd534c;
+    border-radius: 4px;
+    scale: 1.05;
+
+}
+
+
+/* NEEEDS */
+/* NEEEDS */
+/* NEEEDS */
+
+
 
 
 

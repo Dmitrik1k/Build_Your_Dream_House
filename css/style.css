@@ -291,7 +291,15 @@ width: 100%;
     cursor: pointer;
 }
 
+.slider_gallery img{
+    transition: 0.3s;
+}
 
+.slider_gallery img:hover{
+    transition: 0.3s;
+    scale: 1.05;
+
+}
 
 
 
@@ -422,6 +430,311 @@ letter-spacing: 0.14px;
 /* NEEEDS */
 /* NEEEDS */
 /* NEEEDS */
+
+/* COMMENT */
+/* COMMENT */
+/* COMMENT */
+
+
+
+
+.slider_comment {
+
+    display: flex;
+    padding: 80px 165px;    
+flex-direction: column;
+align-items: flex-start;
+gap: 64px;
+align-self: stretch;
+}
+
+.slider_comment h1 {
+    color: #000;
+font-family: Playfair Display;    
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: 124%; /* 59.52px */
+letter-spacing: -0.96px;
+width: 374px;
+}
+
+
+.comment_block { 
+    display: flex;
+flex-direction: column;    
+align-items: flex-end;
+gap: 48px;
+align-self: stretch;
+}
+
+.comment { 
+    display: flex;
+align-items: flex-start;    
+gap: 48px;
+}
+
+
+.comment p {
+    color: #000;
+font-family: Inter;    
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 57.6px */
+letter-spacing: 0.36px;
+width: 765px;
+}
+
+.client {
+    display: flex;
+width: 765px;
+justify-content: space-between;
+align-items: center;
+}
+
+.client h3{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+letter-spacing: 0.16px;
+}
+
+
+.client .btn_arrow { 
+    display: flex;
+align-items: flex-start;
+gap: 8px;
+}
+
+.btn_comment_slide{
+    display: flex;
+width: 48px;
+height: 48px;
+justify-content: center;
+align-items: center;
+border-radius: 4px;
+background: rgba(0, 0, 0, 0.03);
+cursor: pointer;
+}
+
+.btn_comment_slide img{
+padding: 14px;
+cursor: pointer;
+fill: 'black';
+}
+
+
+
+
+
+
+
+
+
+/* DREAM BLOCK */
+/* DREAM BLOCK */
+/* DREAM BLOCK */
+/* DREAM BLOCK */
+
+
+.dream_block{
+    display: flex;
+padding: 64px 136px;
+align-items: center;
+gap: 48px;
+align-self: stretch;
+}
+
+
+.house_img img{
+    position: relative;
+}
+
+.cloud1{
+    left:-490px;
+    top:-470px;
+}
+.cloud2{
+    left:-300px;
+    top:-350px;
+}
+
+
+
+.content_dream{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 48px;
+flex: 1 0 0;
+}
+
+.content_dream h1{
+    color: #000;
+text-align: center;
+font-family: Playfair Display;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: 100%; /* 64px */
+letter-spacing: -1.28px;
+}
+
+.content_dream h1 span{
+    color: #FD665E;
+font-family: Playfair Display;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: 100%;
+letter-spacing: -1.28px;
+}
+
+.btn_dream{
+    border-radius: 4px;
+background: #FD665E;
+display: flex;
+align-items: center;
+transition: 0.3s;
+gap: 10px;
+}
+
+.btn_dream:hover{
+    transition: 0.3s;
+    background: #cd534c;
+    transform: scale(1.05);
+}
+
+.btn_dream h2{
+    color: #FFF;
+    margin: 0;
+    padding: 8px 32px;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 285.714% */
+letter-spacing: 0.14px;
+}
+
+/* DREAM BLOCK */
+/* DREAM BLOCK */
+/* DREAM BLOCK */
+/* DREAM BLOCK */
+
+
+/* Partners */
+/* Partners */
+/* Partners */
+/* Partners */
+/* Partners */
+
+
+.our_partners{
+    display: flex;
+padding: 64px 136px 48px 136px;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+align-self: stretch;
+}
+
+.our_partners h1{
+    color: #000;
+font-family: New York Extra Large;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 124%; /* 59.52px */
+letter-spacing: -1.92px;
+}
+
+.logos{
+    display: flex;
+padding: 24px 0px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+
+}
+.logos img{
+    opacity: 40%;
+}
+
+
+
+
+
+/* Partners */
+/* Partners */
+/* Partners */
+/* Partners */
+
+
+
+
+
+
+
+
+
+
+
+/* COMMENT */
+/* COMMENT */
+/* COMMENT */
+
+.footer {
+    display: flex;
+padding: 80px 136px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+}
+
+
+.wrapper_footer {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+
+.nav_footer {
+    display: flex;
+align-items: center;
+gap: 40px;
+}
+
+.nav_footer a{
+    color: #2C2C2C;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 285.714% */
+letter-spacing: 0.14px;
+}
+
+/* COMMENT */
+/* COMMENT */
+/* COMMENT */
+
+
+
+
+
+
+
+
+
 
 
 

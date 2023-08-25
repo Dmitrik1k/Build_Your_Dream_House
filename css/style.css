@@ -5,6 +5,11 @@ body {
     margin: 0 auto;
 }
 
+
+a:hover{
+    color: #FD665E !important;
+}
+
 body a {
     text-decoration: none;
 }
@@ -105,10 +110,11 @@ align-items: center;
 gap: 10px;
 border-radius: 4px;
 background: #FD665E;
+transition: 0.3s;
 }
 
 .signUP a{
-    color: #FFF;
+    color: #FFF !important;
     text-align: center;
     font-family: Inter;
     font-size: 14px;
@@ -116,6 +122,14 @@ background: #FD665E;
     font-weight: 600;
     line-height: 40px; /* 285.714% */
     letter-spacing: 0.14px; 
+    transition: 0.3s;
+}
+
+.signUP:hover{
+    scale: 1.05;
+    background: #cd534c;
+
+    transition: 0.3s;
 }
 
 
@@ -293,11 +307,14 @@ width: 100%;
 
 .slider_gallery img{
     transition: 0.3s;
+    
 }
 
 .slider_gallery img:hover{
     transition: 0.3s;
+    
     scale: 1.05;
+    
 
 }
 

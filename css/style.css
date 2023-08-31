@@ -20,13 +20,16 @@ body a {
 }
 
 .navbar{
+    
     display: flex;
 height: 80px;
+position: sticky;
+top: 0;
 padding: 0px 136px;
 justify-content: space-between;
 align-items: center;
 align-self: stretch;
-
+background-color: #fff;
 }
 
 .menu{
